@@ -1,0 +1,281 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:2:1-104:12
+	package
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:3:5-49
+		INJECTED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_SUPERUSER
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:7:5-74
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:7:22-72
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:8:5-78
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.SHUTDOWN
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:11:22-72
+uses-permission#android.permission.DEVICE_POWER
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:12:5-71
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:12:22-68
+uses-permission-sdk-23
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:13:5-73
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:13:29-71
+uses-feature#andrdoid.hardware.telephony
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:14:5-15:34
+	android:required
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:15:9-32
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:14:19-61
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:16:5-64
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:16:22-62
+uses-permission#android.permission.SEND_RESPOND_VIA_MESSAGE
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:17:5-82
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:17:22-80
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:18:5-71
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:18:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:19:5-71
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:19:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:20:5-72
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:20:22-69
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:21:22-65
+uses-permission#android.permission.PREVENT_POWER_KEY
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:22:5-76
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:22:22-73
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:23:22-75
+action#android.intent.action.QUICKBOOT_POWEROFF
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:24:5-71
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:24:13-68
+action#android.intent.action.ACTION_SHUTDOWN
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:25:13-65
+uses-permission#android.permission.REBOOT
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:27:5-64
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:27:22-62
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:28:5-81
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:28:22-78
+uses-permission#android.permission.BROADCAST_SMS
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:29:5-71
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:29:22-69
+application
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:30:5-101:19
+MERGED from [com.android.support:design:23.4.0] C:\Users\Umerfarooq\.android\build-cache\99cb0e55e25acb81a135d67f177e72d0035f44fd\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Umerfarooq\.android\build-cache\60027e4c033ccc376be0ff07a72de56b7040a33d\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Umerfarooq\.android\build-cache\bfa61a824476571c0c42581bd29adcfbdd2d9548\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Umerfarooq\.android\build-cache\a72f07ce91b8f216d9063441c449b1a178de52fa\output\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:9.2.0] C:\Users\Umerfarooq\.android\build-cache\bd8f04b3a5216108322b674f871d414cca04c7c5\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\Umerfarooq\.android\build-cache\8f941d3984427a5ff25a4bec20e66cddabe0c770\output\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] C:\Users\Umerfarooq\.android\build-cache\82d24ce37fbf3e582760b5f0b76c9e5fe46bcfd7\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Umerfarooq\.android\build-cache\cdc347116cd16d6dbbd76689d6f31391f2b0584d\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Umerfarooq\.android\build-cache\887d8e63e7d53d800e7c81a4923eb3dc798e7db0\output\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:33:9-28
+	android:supportsRtl
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:34:9-35
+	android:allowBackup
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:31:9-35
+	android:icon
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:32:9-38
+	android:theme
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:35:9-52
+activity#com.example.dell.finalfirstproject.SignupActivity
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:36:9-39:59
+	android:label
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:38:13-32
+	android:theme
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:39:13-56
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:37:13-43
+activity#com.example.dell.finalfirstproject.loginActivity
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:40:9-49:20
+	android:label
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:42:13-57
+	android:theme
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:43:13-56
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:41:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:44:13-48:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:45:17-69
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:45:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:47:17-77
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:47:27-74
+activity#com.example.dell.finalfirstproject.MainActivity
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:50:9-53:59
+	android:label
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:52:13-56
+	android:theme
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:53:13-56
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:51:13-41
+activity#com.example.dell.finalfirstproject.Friendlist
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:54:9-57:59
+	android:label
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:56:13-62
+	android:theme
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:57:13-56
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:55:13-39
+activity#com.example.dell.finalfirstproject.addfriend
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:58:9-61:59
+	android:label
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:60:13-61
+	android:theme
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:61:13-56
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:59:13-38
+activity#com.example.dell.finalfirstproject.securityQuestion
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:62:9-65:59
+	android:label
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:64:13-69
+	android:theme
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:65:13-56
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:63:13-45
+activity#com.example.dell.finalfirstproject.varify
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:66:9-69:59
+	android:label
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:68:13-58
+	android:theme
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:69:13-56
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:67:13-35
+activity#com.example.dell.finalfirstproject.LOGO
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:70:9-42
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:70:19-39
+activity#com.example.dell.finalfirstproject.butoon
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:71:9-44
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:71:19-41
+activity#com.example.dell.finalfirstproject.Power
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:72:9-52
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:72:19-40
+service#com.example.dell.finalfirstproject.PowerButtonService
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:73:9-77:19
+	android:enabled
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:75:13-35
+	android:exported
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:76:13-36
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:74:13-47
+service#com.example.dell.finalfirstproject.CamerService
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:78:9-82:19
+	android:enabled
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:80:13-35
+	android:exported
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:81:13-36
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:79:13-41
+service#com.example.dell.finalfirstproject.PhotoTakingService
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:83:9-87:19
+	android:enabled
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:85:13-35
+	android:exported
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:86:13-36
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:84:13-47
+service#com.example.dell.finalfirstproject.Cam
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:88:9-92:19
+	android:enabled
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:90:13-35
+	android:exported
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:91:13-36
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:89:13-32
+service#com.example.dell.finalfirstproject.Democamservice
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:93:9-50
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:93:18-48
+receiver#com.example.dell.finalfirstproject.ShutdownReceiver
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:94:9-99:20
+	android:name
+		ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:94:19-51
+intent-filter#android.intent.action.ACTION_SHUTDOWN
+ADDED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml:95:13-98:29
+uses-sdk
+INJECTED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:23.4.0] C:\Users\Umerfarooq\.android\build-cache\99cb0e55e25acb81a135d67f177e72d0035f44fd\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\Umerfarooq\.android\build-cache\0a2120f642cb1f0ea22629cb42f8d903b43f7414\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Umerfarooq\.android\build-cache\60027e4c033ccc376be0ff07a72de56b7040a33d\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Umerfarooq\.android\build-cache\bfa61a824476571c0c42581bd29adcfbdd2d9548\output\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Umerfarooq\.android\build-cache\a72f07ce91b8f216d9063441c449b1a178de52fa\output\AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-location:9.2.0] C:\Users\Umerfarooq\.android\build-cache\bd8f04b3a5216108322b674f871d414cca04c7c5\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\Umerfarooq\.android\build-cache\8f941d3984427a5ff25a4bec20e66cddabe0c770\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] C:\Users\Umerfarooq\.android\build-cache\82d24ce37fbf3e582760b5f0b76c9e5fe46bcfd7\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Umerfarooq\.android\build-cache\cdc347116cd16d6dbbd76689d6f31391f2b0584d\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Umerfarooq\.android\build-cache\887d8e63e7d53d800e7c81a4923eb3dc798e7db0\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.0] C:\Users\Umerfarooq\.android\build-cache\4915f558c02674b9b398d141ee93278ae8643d60\output\AndroidManifest.xml:18:5-42
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Umerfarooq\.android\build-cache\60027e4c033ccc376be0ff07a72de56b7040a33d\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\Umerfarooq\.android\build-cache\8f941d3984427a5ff25a4bec20e66cddabe0c770\output\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\Umerfarooq\.android\build-cache\8f941d3984427a5ff25a4bec20e66cddabe0c770\output\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\Umerfarooq\.android\build-cache\8f941d3984427a5ff25a4bec20e66cddabe0c770\output\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\Umerfarooq\.android\build-cache\8f941d3984427a5ff25a4bec20e66cddabe0c770\output\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Umerfarooq\.android\build-cache\cdc347116cd16d6dbbd76689d6f31391f2b0584d\output\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Umerfarooq\.android\build-cache\cdc347116cd16d6dbbd76689d6f31391f2b0584d\output\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Umerfarooq\.android\build-cache\cdc347116cd16d6dbbd76689d6f31391f2b0584d\output\AndroidManifest.xml:22:13-58

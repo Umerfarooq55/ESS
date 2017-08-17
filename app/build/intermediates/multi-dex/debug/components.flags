@@ -1,0 +1,105 @@
+-injars 'C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'C:\Users\Umerfarooq\AppData\Local\Android\Sdk\build-tools\23.0.2\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'C:\Users\Umerfarooq\AndroidStudioProjects\finalFirstproject2\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class com.example.dell.finalfirstproject.SignupActivity {
+    <init>();
+}
+
+-keep class com.example.dell.finalfirstproject.loginActivity {
+    <init>();
+}
+
+-keep class com.example.dell.finalfirstproject.MainActivity {
+    <init>();
+}
+
+-keep class com.example.dell.finalfirstproject.Friendlist {
+    <init>();
+}
+
+-keep class com.example.dell.finalfirstproject.addfriend {
+    <init>();
+}
+
+-keep class com.example.dell.finalfirstproject.securityQuestion {
+    <init>();
+}
+
+-keep class com.example.dell.finalfirstproject.varify {
+    <init>();
+}
+
+-keep class com.example.dell.finalfirstproject.LOGO {
+    <init>();
+}
+
+-keep class com.example.dell.finalfirstproject.butoon {
+    <init>();
+}
+
+-keep class com.example.dell.finalfirstproject.Power {
+    <init>();
+}
+
+-keep class com.example.dell.finalfirstproject.PowerButtonService {
+    <init>();
+}
+
+-keep class com.example.dell.finalfirstproject.CamerService {
+    <init>();
+}
+
+-keep class com.example.dell.finalfirstproject.PhotoTakingService {
+    <init>();
+}
+
+-keep class com.example.dell.finalfirstproject.Cam {
+    <init>();
+}
+
+-keep class com.example.dell.finalfirstproject.Democamservice {
+    <init>();
+}
+
+-keep class com.example.dell.finalfirstproject.ShutdownReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.common.api.GoogleApiActivity {
+    <init>();
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

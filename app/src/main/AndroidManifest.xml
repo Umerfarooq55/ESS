@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.finalfirstproject">
+    android:sharedUserId="android.uid.system"
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.SHUTDOWN"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission-sdk-23 android:name="android.permission.SEND_SMS"/>
+    <uses-feature android:name="andrdoid.hardware.telephony"
+        android:required="true"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.SEND_RESPOND_VIA_MESSAGE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.PREVENT_POWER_KEY" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <action android:name="android.intent.action.QUICKBOOT_POWEROFF" />
+    <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BROADCAST_SMS"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="ESS"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".SignupActivity"
+            android:label="ESS"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".loginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Friendlist"
+            android:label="@string/title_activity_friendlist"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".addfriend"
+            android:label="@string/title_activity_addfriend"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".securityQuestion"
+            android:label="@string/title_activity_security_question"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".varify"
+            android:label="@string/title_activity_varify"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".LOGO" />
+        <activity android:name=".butoon" />
+        <activity android:name=".Power"></activity>
+        <service
+            android:name=".PowerButtonService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+        <service
+            android:name=".CamerService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+        <service
+            android:name=".PhotoTakingService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+        <service
+            android:name=".Cam"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+        <service android:name=".Democamservice"/>
+        <receiver android:name=".ShutdownReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+
+</manifest>
+

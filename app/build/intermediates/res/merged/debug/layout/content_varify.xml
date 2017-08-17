@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/side_nav_bar"
+    tools:context="com.example.dell.finalfirstproject.varify"
+    tools:showIn="@layout/activity_varify">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginBottom="100dp"
+        android:text="Security Verification"
+        android:id="@+id/textView"
+        />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginBottom="100dp"
+            android:text="Get your Code From Your Mobile or Email You Entered."
+            android:id="@+id/text"
+            />
+
+        <EditText
+            android:id="@+id/editTextUserNameToLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="40dp"
+            android:ems="10"
+            android:hint="Enter Code" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/buttonverify"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Submit"
+            android:background="#ffff" />
+
+    </LinearLayout>
+</RelativeLayout>
